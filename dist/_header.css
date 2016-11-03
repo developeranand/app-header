@@ -1,0 +1,73 @@
+/***Font size mixn****/
+/* Header */
+header {
+  background-color: #072146;
+  color: #fff;
+  font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 1em 0px; }
+  @media (min-width: 768px) {
+    header {
+      padding: 10px 0px 0px 0px; } }
+  header #logo {
+    max-width: 240px;
+    display: inline-block;
+    vertical-align: middle; }
+  header.basic-hdr {
+    padding: 1em 0em; }
+    @media (min-width: 768px) {
+      header.basic-hdr {
+        padding: 3.1em 0em; } }
+  header .util-nav {
+    margin-bottom: 78px; }
+    header .util-nav a {
+      font-size: 13px;
+      font-size: 1.3rem;
+      padding-left: 30px;
+      font-family: "BentonSansBBVA Bold", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      transition: color 100ms linear 0s;
+      color: #fff; }
+      header .util-nav a:hover {
+        text-decoration: none; }
+  header .primary-nav {
+    margin-top: -2px; }
+    @media (min-width: 992px) {
+      header .primary-nav {
+        margin-top: 7px; } }
+    header .primary-nav a {
+      font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      color: #fff;
+      opacity: 0.6;
+      padding-left: 4.5%;
+      font-size: 14px;
+      font-size: 1.4rem; }
+      @media (min-width: 992px) {
+        header .primary-nav a {
+          padding-left: 9.5%; } }
+      header .primary-nav a.active {
+        opacity: 1;
+        color: #fff; }
+      header .primary-nav a#logo {
+        opacity: 1; }
+      header .primary-nav a.login {
+        color: #f8cd51; }
+  header .secoundry-nav {
+    padding: 21px 0px 21px 0px;
+    margin-top: 15px;
+    background-color: #004481; }
+    header .secoundry-nav a {
+      font-family: "BentonSansBBVA Medium", "Helvetica Neue", Arial, Helvetica, sans-serif;
+      color: #fff;
+      opacity: 0.6;
+      padding-right: 4.5%;
+      font-size: 14px;
+      font-size: 1.4rem; }
+      @media (min-width: 992px) {
+        header .secoundry-nav a {
+          padding-right: 4.5%; } }
+      header .secoundry-nav a.active {
+        opacity: 1;
+        color: #fff; }
+      header .secoundry-nav a#logo {
+        opacity: 1; }
+      header .secoundry-nav a.login {
+        color: #f8cd51; }
